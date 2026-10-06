@@ -6,7 +6,7 @@
 
 ## Info Gathering:
 
-- Link: http://chatelaine.cylabacademy.net:'[insertsessionnumber]'
+- Link: 'http://chatelaine.cylabacademy.net:[insertsessionnumber]'
 - Login Page upon accessing
 - View-Source reveals this note in text: ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf
 - ROT13 applied gives following: "NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"
