@@ -14,5 +14,5 @@
 
 1. Terminal command: ssh bandit0:bandit.labs.overthewire.org -p 2220
 2. Enter provided password
-3. Move to Level 0 -> Level 1
+3. Move to Level 1
 
