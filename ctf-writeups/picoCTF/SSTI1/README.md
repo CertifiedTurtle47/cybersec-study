@@ -77,7 +77,7 @@ Though I found the flag, it didn't feel like a smooth process. I did learn throu
 
 ### Tools Created:
 
-1. [sstiTESTER.py](cybersec-study/ctf-writeups/picoCTF/SSTI1/sstiTESTER.py)
+1. [sstiTESTER.py](ctf-writeups/picoCTF/SSTI1/sstiTESTER.py)
 	- Automated option based on steps verified in Solution 2
 
 ### How To Detect:
