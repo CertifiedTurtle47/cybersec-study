@@ -29,9 +29,9 @@
 
 ### Images:
 
-![initial code execution](ctf-writeups/picoCTF/bytemancy 1/Screenshot From 2026-10-23 20-32-36.png)
+![initial code execution](ctf-writeups/picoCTF/bytemancy 1/initial_execution.png)
 
-![testing failed input](ctf-writeups/picoCTF/bytemancy 1/Screenshot From 2026-10-23 20-32-36.png)
+![testing failed input](ctf-writeups/picoCTF/bytemancy 1/test_execution.png)
 
 ## Solution:
 
