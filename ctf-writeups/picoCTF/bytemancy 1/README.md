@@ -27,6 +27,12 @@
 - found the flag, needed to flip the command order of the last attempt
 	- correct format: python3 101.py | nc xebec.cylabacademy.net [insert session ID]
 
+### Images:
+
+![initial code execution](ctf-writeups/picoCTF/bytemancy 1/Screenshot From 2026-10-23 20-32-36.png)
+
+![testing failed input](ctf-writeups/picoCTF/bytemancy 1/Screenshot From 2026-10-23 20-32-36.png)
+
 ## Solution:
 
 ### Solution 1 (Initial Attempt/Script Execution):
