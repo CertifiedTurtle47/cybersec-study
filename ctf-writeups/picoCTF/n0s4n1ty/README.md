@@ -85,7 +85,10 @@
     - ...?cmd=sudo ls /root (allows us to see what's in the /root directory; flag should be here as per description
     - ...?cmd=sudo cat /root/flag.txt (prints the contents of the found flag file)
 
-## Notes:
+    
+## Review:
+
+### Notes:
 
 File Upload Attacks & Vulnerability
 
@@ -97,8 +100,6 @@ File Upload Attacks & Vulnerability
     
 - How it works on the server-side:
     - file is uploaded with a .php extension -> file is transferred to a PHP execution engine -> engine interprets the contents of the file, executes the included instructions, and generates output -> server sends the results back as a HTTP response without the PHP code included
-    
-## Review:
 
 ### Vulnerabilities Discovered:
 
