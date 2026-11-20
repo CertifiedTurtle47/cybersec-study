@@ -102,9 +102,9 @@ File Upload Attacks & Vulnerability
 
 ### Vulnerabilities Discovered:
 
-** 1. Allows unsanitized file upload, creating an attack surface for malicious files
-** 2. Remote command execution via uploaded webshell
-** 3. No size limits for uploads, potentially leading to DoS attacks
+1. Allows unsanitized file upload, creating an attack surface for malicious files
+2. Remote command execution via uploaded webshell
+3. No size limits for uploads, potentially leading to DoS attacks
 
 ### How To Prevent:
 
